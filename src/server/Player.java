@@ -36,7 +36,7 @@ public class Player {
         socket.sendMessage(message);
     }
 
-    public Answer sendQuestion(Question question, long questionTime) {
+    public Answer sendQuestion(Question question) {
         int answerNumber = socket.sendQuestion(question.toString());
         int questionId = question.getId();
         return new Answer(questionId, answerNumber, id);

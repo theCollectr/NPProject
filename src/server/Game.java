@@ -97,7 +97,7 @@ public class Game extends Thread {
      * @param player player to be asked
      */
     private void askQuestionToPlayer(Player player) {
-        Answer answer = player.sendQuestion(currentQuestion, QUESTIONS_TIME);
+        Answer answer = player.sendQuestion(currentQuestion);
         try {
             answersQueue.put(answer);
         } catch (InterruptedException e) {

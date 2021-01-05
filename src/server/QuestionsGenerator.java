@@ -12,7 +12,6 @@ import java.util.List;
 
 public class QuestionsGenerator {
     private final String QUESTIONS_PATH = "resources/questions.json";
-    private final String LOAD_FAILED = "couldn't load questions set";
     private final ArrayList<Question> questions;
 
     public QuestionsGenerator() {
