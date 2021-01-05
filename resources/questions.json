@@ -1,0 +1,310 @@
+[
+    {
+        "question": "What is the largest big cat in the world?",
+        "correct": 2,
+        "choices": [
+            "1. Lion",
+            "2. Tiger",
+            "3. Cheetah",
+            "4. Leopard"
+        ],
+        "points": 5
+    },
+    {
+        "question": "What are baby goats called?",
+        "correct": 3,
+        "choices": [
+            "1. Cubs",
+            "2. Puppies",
+            "3. Kids",
+            "4. Foals"
+        ],
+        "points": 10
+    },
+    {
+        "question": "What type of animal is a poodle?",
+        "correct": 1,
+        "choices": [
+            "1. Dog",
+            "2. Horse",
+            "3. Cat",
+            "4. Mouse"
+        ],
+        "points": 5
+    },
+    {
+        "question": "What do camels store in their humps?",
+        "correct": 2,
+        "choices": [
+            "1. Water",
+            "2. Fat",
+            "3. Water & Fat",
+            "4. Protein"
+        ],
+        "points": 5
+    },
+    {
+        "question": "What is the only mammal which can fly?",
+        "correct": 4,
+        "choices": [
+            "1. Falmingo",
+            "2. Goose",
+            "3. Insects",
+            "4. Bat"
+        ],
+        "points": 5
+    },
+    {
+        "question": "What is the largest country in the world?",
+        "correct": 2,
+        "choices": [
+            "1. Canada",
+            "2. Russia ",
+            "3. USA",
+            "4. Brazil"
+        ],
+        "points": 5
+    },
+    {
+        "question": "Where would you find the River Thames?",
+        "correct": 1,
+        "choices": [
+            "1. London",
+            "2. Paris",
+            "3. Barcelona",
+            "4. Berlin"
+        ],
+        "points": 10
+    },
+    {
+        "question": "Which country is also known as the Netherlands?",
+        "correct": 3,
+        "choices": [
+            "1. Ireland",
+            "2. England",
+            "3. Holland",
+            "4. Sweden"
+        ],
+        "points": 5
+    },
+    {
+        "question": "In which country would you find the Leaning Tower of Pisa?",
+        "correct": 4,
+        "choices": [
+            "1. France",
+            "2. Britain",
+            "3. Spain",
+            "4. Italy"
+        ],
+        "points": 5
+    },
+    {
+        "question": "Which is the biggest desert in the world?",
+        "correct": 1,
+        "choices": [
+            "1. Sahara",
+            "2. Gobi",
+            "3. Namib",
+            "4. Thar"
+        ],
+        "points": 10
+    },
+    {
+        "question": "What is the longest river in the world?",
+        "correct": 3,
+        "choices": [
+            "1. Yangtze",
+            "2. Mississippi",
+            "3. Nille",
+            "4. Amazon"
+        ],
+        "points": 5
+    },
+    {
+        "question": "What is the hottest continent on Earth?",
+        "correct": 4,
+        "choices": [
+            "1. South America",
+            "2. Australia",
+            "3. Asia",
+            "4. Africa"
+        ],
+        "points": 5
+    },
+    {
+        "question": "Which planet is nearest to the Earth?",
+        "correct": 2,
+        "choices": [
+            "1. Mars",
+            "2. Venus",
+            "3. Mercury",
+            "4. Jupiter"
+        ],
+        "points": 5
+    },
+    {
+        "question": "When light bends as it enters a different medium the process is known as what?",
+        "correct": 1,
+        "choices": [
+            "1. Refraction",
+            "2. Reflection",
+            "3. Inflection",
+            "4. Absorption"
+        ],
+        "points": 5
+    },
+    {
+        "question": "What is the first name of the famous scientist who gave us Newton�s three laws of motion?",
+        "correct": 3,
+        "choices": [
+            "1. Ben",
+            "2. Thomas",
+            "3. Isaac",
+            "4. John"
+        ],
+        "points": 5
+    },
+    {
+        "question": "Which famous scientist introduced the idea of natural selection?",
+        "correct": 1,
+        "choices": [
+            "1. Charles Darwin",
+            "2. Albert Einstein",
+            "3. Marie Curie",
+            "4. Galileo Galilei"
+        ],
+        "points": 5
+    },
+    {
+        "question": "What planet is known as the red planet?",
+        "correct": 2,
+        "choices": [
+            "1. Jupiter",
+            "2. Mars",
+            "3. Venus",
+            "4. Mercury"
+        ],
+        "points": 5
+    },
+    {
+        "question": "What name do we give to the study of fossils?",
+        "correct": 1,
+        "choices": [
+            "1. Palaeontology",
+            "2. Microbiology",
+            "3. Botany",
+            "4. Agrology"
+        ],
+        "points": 10
+    },
+    {
+        "question": "What is the name of the Snowman in the film 'Frozen'?",
+        "correct": 2,
+        "choices": [
+            "1. Arthur",
+            "2. Olaf",
+            "3. Snowy",
+            "4. Yolaf"
+        ],
+        "points": 5
+    },
+    {
+        "question": "What sort of animal is the video game character Sonic?",
+        "correct": 3,
+        "choices": [
+            "1. Cat",
+            "2. Dog",
+            "3. Hedgehog",
+            "4. Rat"
+        ],
+        "points": 10
+    },
+    {
+        "question": "In 'The Jungle Book', what kind of animal is Baloo?",
+        "correct": 4,
+        "choices": [
+            "1. Black Panther",
+            "2. Cheetah",
+            "3. Snake",
+            "4. Bear"
+        ],
+        "points": 5
+    },
+    {
+        "question": "What is the outermost part of a cell called?",
+        "correct": 4,
+        "choices": [
+            "1. DNA",
+            "2. Cytoplasm",
+            "3. Nucleus",
+            "4. Membrane"
+        ],
+        "points": 10
+    },
+    {
+        "question": "How many sides does a hexagon have?",
+        "correct": 2,
+        "choices": [
+            "1. 5",
+            "2. 6",
+            "3. 7",
+            "4. 8"
+        ],
+        "points": 5
+    },
+    {
+        "question": "When did World War 1 ended?",
+        "correct": 3,
+        "choices": [
+            "1. 1921",
+            "2. 1917",
+            "3. 1918",
+            "4. 1919"
+        ],
+        "points": 10
+    },
+    {
+        "question": "In the film 'The Lion King', what kind of animal is Timon?",
+        "correct": 1,
+        "choices": [
+            "1. Meerkat",
+            "2. Cat",
+            "3. Dog",
+            "4. Pig"
+        ],
+        "points": 5
+    },
+    {
+        "question": "What is the name of Peter Pan's pirate enemy?",
+        "correct": 3,
+        "choices": [
+            "1. Captain Cook",
+            "2. Captain Took",
+            "3. Captain Hook",
+            "4. Captain Look"
+        ],
+        "points": 5
+    },
+    {
+        "question": "What is the name of Mickey Mouse's pet dog?",
+        "correct": 1,
+        "choices": [
+            "1. Goofy",
+            "2. Pluto",
+            "3. Donald",
+            "4. Minnie"
+        ],
+        "points": 5
+    },
+    {
+        "question": "How many rings appear on the Olympic flag?",
+        "correct": 2,
+        "choices": [
+            "1. 4",
+            "2. 5",
+            "3. 7",
+            "4. 9"
+        ],
+        "points": 10
+    }
+]
