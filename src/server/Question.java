@@ -3,7 +3,7 @@ package server;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-public class Question implements java.io.Serializable {
+public class Question {
     private static int idCounter = 0;
     private final transient int id;
     private String question;
@@ -28,11 +28,13 @@ public class Question implements java.io.Serializable {
         String question = questionJson.getString("question");
         int correctAnswer = questionJson.getInt("correct");
         int points = questionJson.getInt("points");
+
         JSONArray choicesJson = questionJson.getJSONArray("choices");
         String[] choices = new String[choicesJson.length()];
         for (int i = 0; i < choices.length; i++) {
             choices[i] = (String) choicesJson.get(i);
         }
+
         return new Question(question, choices, correctAnswer, points);
     }
 

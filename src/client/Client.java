@@ -11,7 +11,8 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class Client {
-    private final int PORT = 8000;
+    private static final int PORT = 8000;
+    private static final int REFRESH_TIME = 10;
     private final String HOST = "localhost";
     private final Socket socket;
     private final BufferedReader reader;
@@ -94,7 +95,7 @@ public class Client {
             }
         };
 
-        timer.schedule(task, 0, 100);
+        timer.schedule(task, 0, REFRESH_TIME);
     }
 
     private void checkForRequest() throws IOException {
@@ -105,8 +106,8 @@ public class Client {
         processRequest(packet);
     }
 
-    private void processRequest(String packet) {
-        JSONObject packetJson = new JSONObject(packet);
+    private void processRequest(String request) {
+        JSONObject packetJson = new JSONObject(request);
         String type = packetJson.getString("type");
         switch (type) {
             case ("message") -> sendMessageToUser(packetJson);
@@ -138,7 +139,7 @@ public class Client {
                 checkForResponse();
             }
         };
-        timer.schedule(task, 0, 100);
+        timer.schedule(task, 0, REFRESH_TIME);
 
         synchronized (this) {
             try {
@@ -159,6 +160,7 @@ public class Client {
             }
         } else if (isPacketRevived()) {
             synchronized (this) {
+                user.printMessage("time's up!");
                 notify();
             }
         }
