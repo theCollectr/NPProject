@@ -9,7 +9,7 @@ import java.util.concurrent.BlockingQueue;
 
 public class Game extends Thread {
     private static final int NUMBER_OF_QUESTIONS = 5;
-    private static final int QUESTIONS_TIME = 60000; // milliseconds
+    private static final int QUESTIONS_TIME = 30000; // milliseconds
     private static final int TIME_BETWEEN_QUESTIONS = 3000;
     private static final int REFRESH_TIME = 100;
     private static final int DELAY_BEFORE_START_LISTENING = 100;
